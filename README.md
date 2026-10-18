@@ -1,5 +1,7 @@
 # Practical 13: Integrating an AI-Augmented Assistant into a Web Application
 
+**Course:** ITUE301 - Advanced Web Development Frameworks  
+
 ---
 
 ## 1. Overview & Objective
@@ -28,7 +30,7 @@ sequenceDiagram
     participant Store as Task Repository
 
     User->>Frontend: Enter Task Title ("Implement OAuth2 Login")
-    User->>Frontend: Click "✨ AI Suggest"
+    User->>Frontend: Click "Auto-Complete"
     Frontend->>Backend: POST /api/ai/suggest { title }
     Backend->>RateLimiter: Check Client IP Rate Limit
     alt Rate Limit Exceeded
@@ -158,7 +160,7 @@ npm run dev
 ### Step 3: Verify Functionality
 1. Open `http://localhost:5173` in your browser.
 2. Enter a task title: `Configure Redis write-through caching layer`.
-3. Click **"✨ AI Suggest"**.
-4. Observe the loading state and the automatically generated description, acceptance criteria, and priority level.
+3. Click **"Auto-Complete"**.
+4. Observe the loading state and the automatically generated technical scope, acceptance criteria, and priority level.
 5. Review or edit the suggested text.
-6. Click **"Add Task to Board"** and verify that the task appears in the board with the `✨ AI-Assisted` tag.
+6. Click **"Save to Backlog"** and verify that the task appears in the sprint board with the `Automated` tag.
