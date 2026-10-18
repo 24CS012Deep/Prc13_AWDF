@@ -1,10 +1,5 @@
 # Practical 13: Integrating an AI-Augmented Assistant into a Web Application
 
-**Student Name:** Deep Chauhan  
-**Roll No:** 24CS012  
-**Course:** ITUE301 - Advanced Web Development Frameworks  
-**Department:** Computer Science & Engineering, CSPIT / DEPSTAR, CHARUSAT  
-
 ---
 
 ## 1. Overview & Objective
