@@ -1,0 +1,14 @@
+{
+  "name": "prc13-backend-ai",
+  "version": "1.0.0",
+  "description": "Practical 13: Secure AI API Integration with Graceful Degradation in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
